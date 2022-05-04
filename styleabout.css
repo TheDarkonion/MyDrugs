@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+     background-color: rgb(6, 6, 39);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    color: orange;
+    padding-right: 40px;
+    padding: 61px;
+    font-size: 20px;
+}
+
+.logo{
+    color: orange;
+    font-size: 30.5px;
+    padding-top: 5px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.href{
+    color: rgb(28, 28, 190);
+    font-family: Arial;
+    font-weight: 200;
+    cursor: none;
+}
+
+.text{
+    color: orange;
+    font-size: 20px;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-color: rgb(7, 7, 31);
+    background-size: contain;
+    height: 123vh;
+    margin: 0px;
+    left: 50%;
+}
+
+.headtext{
+    position: absolute;
+    padding-bottom: 5px;
+    padding-top: -1px;
+    padding-left: 769px;
+    opacity: 67%;
+    color: orange;
+    float: left;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+.img{
+    padding: 220px;
+    padding-left: 599px;
+    padding-right: 10cm;
+    padding-top: 150px;
+    position: absolute;
+}
+
+.text{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: orange;
+}
+
+.button1{
+    color: orange;
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#topnav img {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+  align-items: center;
+}
+
+.Maintext{
+    color: orange;
+    padding-top: 995px;
+    font-size: 20.5px;
+    padding-left: 335px;
+    font-weight: lighter;
+}
+
+.h5{
+    color: orange;
+    font-size: 15px;
+    font-weight: 100;
+}
