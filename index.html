@@ -21,10 +21,7 @@
                 <h1>Best quality.</h1>
                 <h1>Best delivery.</h1>
                 <h1>Best security.</h1>
-        </div>
-        <div class="wrapper">
-          <a href="shop.html" class="button1"><span> SHOP NOW → </span></a>
-        <div>
+                <h5>Prices as low as 0.0046 BTC.</h5>
             <div class="img">
                 <img src="https://mydrugsto.netlify.app/assets/img/powder_explotion_hero.png" alt="IMG">
               <div>
@@ -34,6 +31,8 @@
               <div>
                     </div>     
               </div>
+              <div class="wrapper">
+                <a href="shop.html" class="button1"><span> SHOP NOW → </span></a>
         <div>
              <body>
                <section id="topnav">
@@ -49,6 +48,19 @@
                           <h5>If you have any questions go into the FAQ tab in the shop site.</h5>
                         </div>
                       </section>
+            </div>
+            <div>
+              <script>
+                const hamburger = document.querySelector(".hamburger");
+                const navMenu = document.querySelector(".nav-menu");
+            
+                hamburger.addEventListener("click", mobileMenu);
+            
+                function mobileMenu() {
+                  hamburger.classList.toggle("active");
+                  navMenu.classList.toggle("active");
+                }
+              </script>
             </div>
 </body>
 </html>
