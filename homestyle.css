@@ -11,13 +11,12 @@
     background-size: contain;
     height: 123vh;
     margin: 0px;
-    left: 50%;
+    left: 50%
 }
 
 .headtext{
     position: absolute;
     padding-bottom: 5px;
-    padding-top: -1px;
     padding-left: 769px;
     opacity: 67%;
     color: orange;
@@ -47,12 +46,13 @@
 }
 
 .button1{
-    color: orange;
-    position: relative;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-style: italic;
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 845px;
+    margin-top: 150px;
+    position: absolute;
+    color: rgb(0, 17, 255);
 }
 
 #topnav img {
@@ -74,4 +74,29 @@
     color: orange;
     font-size: 15px;
     font-weight: 100;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
