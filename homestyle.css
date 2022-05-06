@@ -30,11 +30,8 @@
 }
 
 .img{
-    padding: 220px;
-    padding-left: 599px;
-    padding-right: 10cm;
-    padding-top: 150px;
     position: absolute;
+    padding-right: 600px;
 }
 
 .text{
@@ -45,12 +42,11 @@
 }
 
 .button1{
-    color: rgb(0, 0, 255);
+    color: rgb(113, 16, 204);
     cursor: pointer;
-    font-size: 19px;
-    margin-left: 845px;
-    margin-top: 150px;
+    font-size: 21px;
     position: absolute;
+    margin-bottom: 900px;
     color: rgb(0, 17, 255);
 }
 
