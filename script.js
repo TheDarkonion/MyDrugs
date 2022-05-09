@@ -23,9 +23,9 @@ form.addEventListener('Log In', (e) => {
     if (password.value.length >= 35) {
         messages.push('Password must be less than 35 charachters.')
     }
-
-    if (messages.length > 0) {
-        e.preventDefault()
+    
+    if (messages.length > 0) 
+    {
     e.preventDefault()
     errorElement.innerText = messages.join(', ')
  }
